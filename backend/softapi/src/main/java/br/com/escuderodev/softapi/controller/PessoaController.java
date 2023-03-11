@@ -1,7 +1,7 @@
-package br.com.escudero.cadastro.pessoa.controler;
+package br.com.escuderodev.softapi.controller;
 
-import br.com.escudero.cadastro.pessoa.dao.IPessoa;
-import br.com.escudero.cadastro.pessoa.model.Pessoa;
+import br.com.escuderodev.softapi.dao.IPessoa;
+import br.com.escuderodev.softapi.model.Pessoa;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

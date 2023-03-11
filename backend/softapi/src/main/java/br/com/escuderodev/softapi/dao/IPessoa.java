@@ -1,7 +1,8 @@
-package br.com.escudero.cadastro.pessoa.dao;
+package br.com.escuderodev.softapi.dao;
 
-import br.com.escudero.cadastro.pessoa.model.Pessoa;
+import br.com.escuderodev.softapi.model.Pessoa;
 import org.springframework.data.repository.CrudRepository;
 
 public interface IPessoa extends CrudRepository<Pessoa, Integer> {
 }
+

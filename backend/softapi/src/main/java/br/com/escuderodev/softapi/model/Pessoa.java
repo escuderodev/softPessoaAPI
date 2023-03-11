@@ -1,4 +1,4 @@
-package br.com.escudero.cadastro.pessoa.model;
+package br.com.escuderodev.softapi.model;
 
 import jakarta.persistence.*;
 
@@ -25,7 +25,7 @@ public class Pessoa {
     @Column(name = "cpf", length = 14, nullable = true)
     private String cpf;
 
-//    getters and setters
+    //    getters and setters
     public Integer getIdpessoa() {
         return idpessoa;
     }
