@@ -7,9 +7,7 @@ import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 
 import javax.persistence.*;
-import javax.validation.Constraint;
-import javax.validation.Payload;
-import java.lang.annotation.*;
+import javax.validation.Valid;
 import java.sql.Timestamp;
 import java.time.LocalDate;
 
@@ -33,7 +31,7 @@ public class Pessoa {
     @UpdateTimestamp
     private Timestamp updateDate;
 
-    public Pessoa(DadosCadastroPessoa dados) {
+    public Pessoa( @Valid DadosCadastroPessoa dados) {
         this.nome = dados.nome();
         this.sexo = dados.sexo();
         this.email = dados.email();
@@ -46,7 +44,7 @@ public class Pessoa {
     public Pessoa() {
     }
 
-    public void atualizaDados(DadosAtualizaPessoa dados) {
+    public void atualizaDados(@Valid DadosAtualizaPessoa dados) {
         this.nome = dados.nome();
         this.sexo = dados.sexo();
         this.email = dados.email();
