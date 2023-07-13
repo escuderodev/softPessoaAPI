@@ -1,4 +1,4 @@
-package br.com.escuderodev.soft_java_api.domain.pessoa;
+package br.com.escuderodev.soft_java_api.models.pessoa;
 
 import javax.persistence.Column;
 import javax.validation.constraints.NotBlank;

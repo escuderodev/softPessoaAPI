@@ -1,6 +1,6 @@
 package br.com.escuderodev.soft_java_api.controller;
 
-import br.com.escuderodev.soft_java_api.domain.pessoa.*;
+import br.com.escuderodev.soft_java_api.models.pessoa.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.transaction.annotation.Transactional;
