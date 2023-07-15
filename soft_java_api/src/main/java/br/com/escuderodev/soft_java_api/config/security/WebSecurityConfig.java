@@ -49,13 +49,4 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         return new BCryptPasswordEncoder();
     }
 
-//    login em memoria
-//    @Override
-//    protected void configure(AuthenticationManagerBuilder auth) throws Exception {
-//        auth.inMemoryAuthentication()
-//                .withUser("escuderodev")
-//                .password(passwordEncoder().encode("123456"))
-//                .roles("ADMIN");
-//    }
-
 }
