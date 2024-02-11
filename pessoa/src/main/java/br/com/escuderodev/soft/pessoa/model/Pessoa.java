@@ -34,4 +34,26 @@ public class Pessoa {
     @UpdateTimestamp
     private LocalDateTime dataDeAtualizacao;
 
+    public Pessoa(DadosCadastroPessoa dados) {
+        this.nome = dados.nome();
+        this.sexo = dados.sexo();
+        this.email = dados.email();
+        this.dataNascimento = dados.dataNascimento();
+        this.naturalidade = dados.naturalidade();
+        this.nacionalidade = dados.nacionalidade();
+        this.cpf = dados.cpf();
+    }
+
+    public Pessoa() {
+    }
+
+    public void atualizaDados(DadosAtualizaPessoa dados) {
+        this.nome = dados.nome();
+        this.sexo = dados.sexo();
+        this.email = dados.email();
+        this.dataNascimento = dados.dataNascimento();
+        this.naturalidade = dados.naturalidade();
+        this.nacionalidade = dados.nacionalidade();
+        this.cpf = dados.cpf();
+    }
 }
