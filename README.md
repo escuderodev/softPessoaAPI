@@ -1,3 +1,6 @@
+# Swagger documentação
+http://localhost/swagger-ui/index.html#/
+
 # Seleção Dev Java
 Se você chegou ate aqui é porque se interessou em ser um softplayer. 
 Como temos muitas oportunidades para você colocar a mão na massa, queremos ver como você se sai com o cenário abaixo, por meio do qual conseguiremos avaliar várias de suas competências.
