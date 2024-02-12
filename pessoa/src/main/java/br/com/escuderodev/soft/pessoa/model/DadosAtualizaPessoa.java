@@ -21,7 +21,7 @@ public record DadosAtualizaPessoa(
         LocalDate dataNascimento,
         String naturalidade,
         String nacionalidade,
-        @NotBlank @CPF @Column(unique = true)
+        @NotBlank @CPF
         String cpf
 ) {
 }

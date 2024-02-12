@@ -28,6 +28,7 @@ public class Pessoa {
     private LocalDate dataNascimento;
     private String naturalidade;
     private String nacionalidade;
+    @Column(unique = true)
     private String cpf;
     @CreationTimestamp
     private LocalDateTime dataDeCadastro;
