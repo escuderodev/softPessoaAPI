@@ -18,6 +18,7 @@ public record DadosCadastroPessoa(
         Sexo sexo,
         @Email
         String email,
+        @NotNull
         LocalDate dataNascimento,
         String naturalidade,
         String nacionalidade,
