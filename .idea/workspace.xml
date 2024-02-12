@@ -4,27 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a1c8982-f02f-4f86-b379-86001856fec5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/anotacao.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pessoa/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pessoa/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pessoa/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pessoa/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pessoa/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pessoa/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pessoa/src/main/java/br/com/escuderodev/soft/pessoa/PessoaApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pessoa/src/main/java/br/com/escuderodev/soft/pessoa/controller/PessoaController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pessoa/src/main/java/br/com/escuderodev/soft/pessoa/infra/Exceptions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pessoa/src/main/java/br/com/escuderodev/soft/pessoa/model/DadosAtualizaPessoa.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pessoa/src/main/java/br/com/escuderodev/soft/pessoa/model/DadosCadastroPessoa.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pessoa/src/main/java/br/com/escuderodev/soft/pessoa/model/DadosListagemPessoa.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pessoa/src/main/java/br/com/escuderodev/soft/pessoa/model/Pessoa.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pessoa/src/main/java/br/com/escuderodev/soft/pessoa/model/PessoaRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pessoa/src/main/java/br/com/escuderodev/soft/pessoa/model/Sexo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pessoa/src/main/java/br/com/escuderodev/soft/pessoa/service/PessoaService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pessoa/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pessoa/src/test/java/br/com/escuderodev/soft/pessoa/PessoaApplicationTests.java" beforeDir="false" />
-    </list>
+    <list default="true" id="6a1c8982-f02f-4f86-b379-86001856fec5" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,12 +16,12 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2cHA5R4E4XQBD8qMu02x7Cv0xn0" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -52,9 +32,9 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "dev",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/eduardo.escudero/Documents/GitHub/softPessoaAPI",
+    "last_opened_file_path": "C:/Users/eduardo.escudero/Documents/GitHub/softPessoaAPI/backend/pessoa",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -85,6 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1707757948740</updated>
       <workItem from="1707757950344" duration="46000" />
+      <workItem from="1707758464178" duration="13000" />
     </task>
     <servers />
   </component>

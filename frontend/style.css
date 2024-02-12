@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form_container {
+    width: 50vw;
+    height: 600px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 2rem;
+    padding: 2rem;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+
+.container_sexo {
+    display: flex;
+    gap: 1rem;
+}
+
+.container_naturalidade {
+    display: flex;
+    gap: 1rem;
+}
+
+.cpf {
+    width: 200px;
+}
+
+.submit {
+    margin-top: 1.5rem;
+}
