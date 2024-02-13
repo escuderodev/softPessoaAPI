@@ -4,11 +4,26 @@
     box-sizing: border-box;
 }
 
+/* home */
+span {
+    color: red;
+    font-weight: bold;
+}
+
+#nav-link {
+    color: white;
+}
+
+#nav-link:hover {
+    color: gray;
+}
+
+/* cadastro */
 .form_container {
     width: 60vw;
     height: 600px;
     position: absolute;
-    top: 45%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 2rem;
@@ -33,4 +48,10 @@
 
 .submit {
     margin-top: 1.5rem;
+}
+
+/* listagem */
+.main {
+    width: 80vw;
+    margin: 1rem auto;
 }
