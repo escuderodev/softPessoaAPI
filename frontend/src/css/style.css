@@ -18,6 +18,20 @@ span {
     color: gray;
 }
 
+.menuContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 3rem;
+}
+
+.tituloHome {
+    text-align: center;
+    padding-top: 50px;
+}
+
 /* cadastro */
 .form_container {
     width: 60vw;
@@ -54,4 +68,24 @@ span {
 .main {
     width: 80vw;
     margin: 1rem auto;
+}
+
+.btn {
+    width: 150px;
+}
+
+.novoCadastro, .listarPessoas {
+    color: white;
+}
+
+.novoCadastro:hover, .listarPessoas:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.tituloListaContainer {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
 }

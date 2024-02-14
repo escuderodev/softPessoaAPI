@@ -15,4 +15,6 @@ form.addEventListener("submit", evento => {
         },
         body: JSON.stringify(data)
     }).then(res => res.json()).then(data => console.log(data))
+
+    window.location.href = "http://127.0.0.1:5500/listagem.html";
 })
