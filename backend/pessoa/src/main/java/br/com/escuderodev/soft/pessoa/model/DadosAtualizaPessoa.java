@@ -14,7 +14,7 @@ public record DadosAtualizaPessoa(
         Long id,
         @NotBlank
         String nome,
-        @Enumerated
+        @NotNull
         Sexo sexo,
         @Email
         String email,

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Cadastro de Pessoa</title>
+</head>
+<body>
+<div>
+    <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
+        <div class="bg-dark p-4">
+            <h5 class="text-body-emphasis h4">Collapsed content</h5>
+            <span class="text-body-secondary">Toggleable via the navbar brand.</span>
+        </div>
+    </div>
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+        <a class="navbar-brand" href="/app/lista">Control<span>Person</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" id="nav-link" href="/app/lista">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="nav-link" href="/app/formulario">Cadastro</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="nav-link" href="/app/lista">Lista</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+<div>
+    <form action="/app" method="post" class="form_container">
+        <h1>Cadastro de Pessoa</h1>
+        <input type="hidden" name="_method" value="put" th:if="${pessoa != null}">
+        <input type="hidden" name="id" th:value="${pessoa?.id}">
+        <div class="form-group nome">
+            <label for="nome">Nome Completo:</label>
+            <input type="text" class="form-control" name="nome" id="nome" placeholder="Digite o nome completo" required th:value="${pessoa?.nome}">
+        </div>
+        <div class="container_sexo">
+            <div class="form-group ">
+                <label for="sexo">Sexo:</label>
+                <select class="form-control" aria-label="Default select example" name="sexo" id="sexo" required th:value="${pessoa?.sexo}">
+                    <option selected>Escolha o sexo</option>
+                    <option value="FEMININO">FEMININO</option>
+                    <option value="MASCULINO">MASCULINO</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="dataNascimento">Data de Nascimento</label>
+                <input type="date" class="form-control" name="dataNascimento" id="dataNascimento" th:value="${pessoa?.dataNascimento}">
+            </div>
+        </div>
+
+        <div class="form-group email">
+            <label for="email">E-mail:</label>
+            <input type="email" class="form-control" name="email" id="email" placeholder="seuemail@provedor.com.br" th:value="${pessoa?.email}">
+        </div>
+
+        <div class="container_naturalidade">
+            <div class="form-group">
+                <label for="naturalidade">Naturalidade:</label>
+                <input type="text" class="form-control" name="naturalidade" id="naturalidade" placeholder="Digite a naturalidade" th:value="${pessoa?.naturalidade}">
+            </div>
+            <div class="form-group">
+                <label for="nacionalidade">Nacionalidade:</label>
+                <input type="text" class="form-control" name="nacionalidade" id="nacionalidade" placeholder="Digite a nocionalidade" th:value="${pessoa?.nacionalidade}">
+            </div>
+        </div>
+        <div class="form-group cpf">
+            <label for="cpf">CPF:</label>
+            <input type="text" class="form-control" name="cpf" id="cpf" required placeholder="000.000.000-00" th:value="${pessoa?.cpf}">
+        </div>
+        <div class="form-group submit">
+            <button type="submit" class="btn btn-primary">Salvar</button>
+        </div>
+    </form>
+
+</div>
+</body>
+</html>
