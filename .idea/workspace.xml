@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a1c8982-f02f-4f86-b379-86001856fec5" name="Changes" comment="" />
+    <list default="true" id="6a1c8982-f02f-4f86-b379-86001856fec5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/pessoa/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/pessoa/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/listagem.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/listagem.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/js/listagem.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/js/listagem.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,9 +38,9 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "dev",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/eduardo.escudero/Documents/GitHub/softPessoaAPI/backend/pessoa",
+    "last_opened_file_path": "C:/Users/eduardo.escudero/Documents/GitHub/JavaAIPowered/Projetos/Adicionando Segurança a uma API REST com Spring Security/seguranca",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -66,6 +72,8 @@
       <updated>1707757948740</updated>
       <workItem from="1707757950344" duration="46000" />
       <workItem from="1707758464178" duration="13000" />
+      <workItem from="1708200145051" duration="12000" />
+      <workItem from="1708203533370" duration="16000" />
     </task>
     <servers />
   </component>

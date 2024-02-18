@@ -66,12 +66,20 @@ span {
 
 /* listagem */
 .main {
-    width: 80vw;
+    width: 90vw;
     margin: 1rem auto;
 }
 
 .btn {
     width: 150px;
+}
+
+.btn_opcoes {
+    width: 70px;
+}
+
+button {
+    border: none;
 }
 
 .novoCadastro, .listarPessoas {
@@ -88,4 +96,8 @@ span {
     gap: 1rem;
     align-items: center;
     justify-content: space-between;
+}
+
+th {
+    text-align: center;
 }

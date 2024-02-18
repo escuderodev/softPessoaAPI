@@ -12,6 +12,8 @@ fetch('http://localhost/pessoas')
         row.insertCell(5).textContent = pessoa.naturalidade;
         row.insertCell(6).textContent = pessoa.nacionalidade;
         row.insertCell(7).textContent = pessoa.cpf;
+        row.insertCell(8).innerHTML = '<button><a href="" class="btn btn-warning btn_opcoes">Editar</a></button>';
+        row.insertCell(9).innerHTML = '<button><a href="" class="btn btn-danger btn_opcoes">Excluir</a></button>';
     });
 })
 .catch(error => console.error('Erro ao carregar os dados:', error));
