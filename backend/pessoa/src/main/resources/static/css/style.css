@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* home */
+span {
+    color: red;
+    font-weight: bold;
+}
+
+#nav-link {
+    color: white;
+}
+
+#nav-link:hover {
+    color: gray;
+}
+
+.menuContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 3rem;
+}
+
+.tituloHome {
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* cadastro */
+.form_container {
+    width: 60vw;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 2rem;
+    padding: 2rem;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000;
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+
+.container_sexo {
+    display: flex;
+    gap: 1rem;
+}
+
+.container_naturalidade {
+    display: flex;
+    gap: 1rem;
+}
+
+.cpf {
+    width: 200px;
+}
+
+.submit {
+    margin-top: 1.5rem;
+}
+
+/* listagem */
+.main {
+    width: 90vw;
+    margin: 1rem auto;
+}
+
+.btn {
+    width: 150px;
+}
+
+.btn_opcoes, #editar{
+    width: 70px;
+    color: white;
+}
+
+button {
+    border: none;
+}
+
+.novoCadastro, .listarPessoas {
+    color: white;
+}
+
+.novoCadastro:hover, .listarPessoas:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.tituloListaContainer {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+th {
+    text-align: center;
+}
+
+.td_acoes {
+    display: flex;
+    gap: 1rem;
+}

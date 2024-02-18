@@ -21,6 +21,10 @@ public class PessoaService {
         return repository.findAll(pagination).map(DadosListagemPessoa::new);
     }
 
+    public List<Pessoa> findAllNotPageable() {
+        return repository.findAll();
+    }
+
     public Pessoa findById(Long id) {
         return repository.getReferenceById(id);
     }
