@@ -49,8 +49,8 @@
                 <label for="sexo">Sexo:</label>
                 <select class="form-control" aria-label="Default select example" name="sexo" id="sexo" required th:value="${pessoa?.sexo}">
                     <option selected>Escolha o sexo</option>
-                    <option value="FEMININO">FEMININO</option>
-                    <option value="MASCULINO">MASCULINO</option>
+                    <option value="FEMININO" th:selected="${pessoa?.sexo == T(br.com.escuderodev.soft.pessoa.model.Sexo).FEMININO}">FEMININO</option>
+                    <option value="MASCULINO" th:selected="${pessoa?.sexo == T(br.com.escuderodev.soft.pessoa.model.Sexo).MASCULINO}">MASCULINO</option>
                 </select>
             </div>
             <div class="form-group">
